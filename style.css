@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  text-align: center;
+  background-image: url(flag.jpeg);
+  font-size: large;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: "Cinzel Decorative", sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-family: serif;
+}
+
+button:hover {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
